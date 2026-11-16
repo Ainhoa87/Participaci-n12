@@ -1,0 +1,6 @@
+interface:
+  display_name: "Incident Investigator"
+  short_description: "Investiga logs CSV con evidencia y secretos redactados"
+  default_prompt: "Usa $incident-investigator para investigar estos logs CSV y citar evidencia con los secretos redactados."
+policy:
+  allow_implicit_invocation: true
